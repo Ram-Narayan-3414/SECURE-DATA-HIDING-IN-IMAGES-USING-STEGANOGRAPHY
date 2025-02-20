@@ -12,12 +12,16 @@ Install Python from the official website:
 [Python.org](https://www.python.org/downloads/release/python-3132/)
 Make sure to install the IDLE alongside the installation of python and set environment variable.
 The following dependencies are necessary to run the scripts, to install use the below command on your terminal:
-`pip install opencv-python`
+```
+pip install opencv-python
+```
 
 # Guide to get Started
 ## To Encrypt
 In order to hide a message in an image use the below command on your terminal where the project files exist:
-`python Image-encryptor.py`
+```
+python Image-encryptor.py
+```
 ### Steps:
   1. After running the script, the script will require an image, it will ask for `image.jpg`.
   2. Enter the message you want to hide.
@@ -27,7 +31,9 @@ In order to hide a message in an image use the below command on your terminal wh
 
 ## To Decrypt
 In order to retrieve the hidden message from the `encImage.png`:
-`python Image-decryptor.py -i encImage.png -p password`
+```
+python Image-decryptor.py -i encImage.png -p password
+```
 ### Steps:
   1. The script takes the input for the input field `-i` the encypted image.
   2. Provide the correct password in the `-p` field or after the script prompts to enter.
