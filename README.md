@@ -42,12 +42,16 @@ In order to retrieve the hidden message from the `encImage.png`:
 
 # Example
 ## Encryption:
-` Enter the message to be encrypted: This is my project
-  Enter the password to secure your image: easypassword
-  ``encImage.png`` is your encrypted image`
+```
+Enter the message to be encrypted: This is my project
+Enter the password to secure your image: easypassword
+'encImage.png' is your encrypted image
+```
 ## Decryption:
-` Enter the password used during encryption: easypassword
- ``This is my project`` was the encrypted message decrypted from ``encImage.png`` `
+```
+Enter the password used during encryption: easypassword
+'This is my project' was the encrypted message decrypted from 'encImage.png' `
+```
  # Edge case
  Since during the encryption in the image, the pixel values with message bytes gets replaced, the message length shouldn't be longer than the image size.
 
