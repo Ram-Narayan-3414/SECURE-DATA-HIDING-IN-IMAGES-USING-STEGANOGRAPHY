@@ -32,11 +32,11 @@ python Image-encryptor.py
 ## To Decrypt
 In order to retrieve the hidden message from the `encImage.png`:
 ```
-python Image-decryptor.py -i encImage.png -p password
+python Image-decryptor.py -i encImage.png -p Key.txt
 ```
 ### Steps:
   1. The script takes the input for the input field `-i` the encypted image.
-  2. Provide the correct password in the `-p` field or after the script prompts to enter.
+  2. Provide the correct password file in the `-p` field or enter the corret password after the script prompts to enter.
   3. If only correct password is entered the script will output the hidden message from the `encImage.png`. Else it fail with the output `Wrong Password, Try again!`.
 
 # File Desc
